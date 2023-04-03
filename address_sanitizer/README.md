@@ -184,3 +184,4 @@ export LD_PRELOAD= libasan.so.2:libprelib.so   #vos_malloc --> malloc
 
 [AddressSanitizer Build](https://github.com/google/sanitizers/wiki/AddressSanitizerHowToBuild)
 
+[AddressSanitizer 错误示例](https://learn.microsoft.com/zh-cn/cpp/sanitizers/asan-error-examples?view=msvc-170)
