@@ -1,0 +1,27 @@
+
+RM = rm -f
+CREATE_SO = gcc -shared
+CC = gcc
+CFLAGS = -fPIC -Wall -g -DNDEBUG 
+INCLUDES = 
+LDFLAGS = -Wl,--no-undefined
+LDPATH =
+VPATH = 
+
+SOURCES = $(shell ls *.c)
+OBJECTS = $(SOURCES:%.c=%.o)
+DYNAMICLIB = libmydynamiclib.so
+
+all: $(DYNAMICLIB)
+	@echo "DYNAMICLIB = $(DYNAMICLIB)" 
+
+.PHONY: clean
+clean:
+	$(RM) $(DYNAMICLIB) $(OBJECTS)
+
+$(OBJECTS): %.o: %.c
+	$(CC) -o $@ -c $(CFLAGS) $(INCLUDES) $<
+
+$(DYNAMICLIB): $(OBJECTS)
+	$(CREATE_SO) -o $(DYNAMICLIB) $(OBJECTS) $(LDPATH) $(LDFLAGS)
+

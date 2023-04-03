@@ -1,0 +1,1 @@
+rm regularBuild staticBuild
