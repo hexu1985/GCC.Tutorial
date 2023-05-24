@@ -85,3 +85,7 @@ $ gcc -Wall -c first.c second.c third.c fourth.c
     third.o
     fourth.o
     ```
+
+#### 参考资料:
+
+-《高级C/C++编译技术》: 12.5 静态库工具

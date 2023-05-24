@@ -10,4 +10,4 @@ $ ar rcs libstaticlib.a first.o second.o
 
 
 #### 参考资料:
-《高级C/C++编译技术》: 5.1章节
+《高级C/C++编译技术》: 5.1.1 创建Linux静态库
