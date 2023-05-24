@@ -1,4 +1,4 @@
-# Linux Toolchain Tutorial
+# GCC Tutorial
 
 ## Table of contents
 
