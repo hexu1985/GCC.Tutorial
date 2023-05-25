@@ -35,7 +35,5 @@ do_unload_library(handle);
     handle = NULL;
 ```
 
-
-
 #### 参考资料:
-《高级C/C++编译技术》: 6.3章节
+《高级C/C++编译技术》: 6.3.2 运行时动态链接

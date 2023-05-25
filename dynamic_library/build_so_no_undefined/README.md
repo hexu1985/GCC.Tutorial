@@ -23,4 +23,4 @@ $ gcc -fPIC <source files> -l <libraries> -Wl,--no-undefined -o <shlib output fi
 
 
 #### 参考资料:
-《高级C/C++编译技术》: 6.2.4章节
+《高级C/C++编译技术》: 6.2.4 完成链接需要满足的条件

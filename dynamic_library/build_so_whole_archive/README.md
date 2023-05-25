@@ -23,4 +23,4 @@ gcc -shared mydynamiclibshell.o -o libmydynamiclib.so -Wl,--whole-archive libmys
 ```
 
 #### 参考资料:
-《高级C/C++编译技术》: 4.3章节
+《高级C/C++编译技术》: 4.3.1 导入选择条件的差异
