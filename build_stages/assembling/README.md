@@ -178,3 +178,6 @@ add_and_multiply:
 	.ident	"GCC: (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0"
 	.section	.note.GNU-stack,"",@progbits
 ```
+
+#### 参考资料:
+《高级C/C++编译技术》: 2.3.3 编译的各个阶段

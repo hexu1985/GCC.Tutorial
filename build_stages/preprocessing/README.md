@@ -161,3 +161,7 @@ float add_and_multiply(float x, float y)
     return z;
 }
 ```
+
+#### 参考资料:
+《高级C/C++编译技术》: 2.3.3 编译的各个阶段
+

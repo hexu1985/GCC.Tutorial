@@ -332,5 +332,7 @@ Disassembly of section .eh_frame:
   55:	08 00                	or     BYTE PTR [rax],al
 	...
 ```
-```
+
+#### 参考资料:
+《高级C/C++编译技术》: 2.3.3 编译的各个阶段
 
