@@ -7,6 +7,7 @@
 - [预处理阶段](build_stages/preprocessing)
 - [汇编阶段](build_stages/assembling)
 - [输出目标文件阶段（以及反汇编）](build_stages/object_files_and_disassembling)
+- [链接阶段](build_stages/linking)
 
 ### [静态库](static_library)
 
