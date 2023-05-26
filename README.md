@@ -2,6 +2,12 @@
 
 ## Table of contents
 
+### [生成可执行程序](build_stages)
+
+- [预处理阶段](build_stages/preprocessing)
+- [汇编阶段](build_stages/assembling)
+- [输出目标文件阶段（以及反汇编）](build_stages/object_files_and_disassembling)
+
 ### [静态库](static_library)
 
 - [创建静态库](static_library/build_a)
