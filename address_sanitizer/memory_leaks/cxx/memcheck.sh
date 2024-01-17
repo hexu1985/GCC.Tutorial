@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-./memory_leaks
+./custom_deleter
